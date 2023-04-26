@@ -10,7 +10,7 @@ let navigate = useNavigate();
     e.preventDefault();
     let TeacherName = name.current.value;
     let TeacherTopic= name.current.value;
-    let path =`teachers/${teacherTopic}/${teacherName}`;
+    let path =`teachers/${TeacherTopic}/${TeacherName}`;
     navigate(path);
   }
   return (
